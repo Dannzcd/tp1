@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,200&display=swap');
+
+body 
+{
+    font-family: Arial, sans-serif;
+    height: auto;
+    margin: 0;
+    animation: transicao 1.2s;
+}
+
+.intro 
+{
+    background-image: url(imagenstp1/foto-guerra-93092.jpg);
+    height: 800px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 0.1px solid transparent;
+}
+
+.intro h1
+{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    text-shadow: 2px 2px 3px black;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.intro p
+{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-section
+{
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+.cartao
+{   
+    position: relative;
+    bottom: 200px;
+    width: 300px;
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.5);
+    margin: 100px;
+    background: rgb(53, 53, 53);
+    text-align: center;
+    height: 450px;
+    border-radius: 20px;
+    transition: transform .7s; 
+}
+
+.cartao img
+{   
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cartao p
+{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cartao button
+{
+    border-radius: 20px;
+    background: black;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.cartao:hover
+{
+    transform: translateY(-15px);
+    box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.5);
+}
+
+.Copyright
+{
+    background: rgb(53, 53, 53);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px black;
+    position: relative;
+}
+
+@keyframes transicao 
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    
+    to
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

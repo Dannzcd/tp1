@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,600;1,200&display=swap');
+
+body 
+{
+    height: auto;
+    margin: 0;
+    width: auto;
+    animation: transicao 1.2s;
+}
+
+.intro 
+{
+    background-image: url(imagenstp1/thepacific.jpg);
+    height: 969px;
+    background-position: right center;
+    background-size: cover;
+    margin: 0;
+    border-top: 0.1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.intro nav ul 
+{   
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: right;
+    position: relative;
+    bottom: 360px;
+}
+
+.intro > nav a:hover 
+{  
+    background: rgba(0 , 0, 0 , 0.3);
+    border-radius: 40px;
+}
+
+.intro nav ul li 
+{   
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    margin: 4px;
+    width: auto;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro h1
+{   
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+}
+
+.intro nav a 
+{
+    background: rgba(0 , 0, 0 , 0.0);
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro h2
+{   
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;   
+}
+
+.align-title
+{
+    position: relative;
+    left: 50px;
+    width: 500px;   
+}
+
+.content-section
+{   
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    height: 750px;
+}
+
+.content-section
+{   
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    height: 750px;
+    margin: 0 150px 0 150px;
+}
+
+.content-section p
+{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.center
+{   
+    display: flex;
+    justify-content: center;
+}
+
+.content-section h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+.destaque
+{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+@keyframes transicao 
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    
+    to
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
